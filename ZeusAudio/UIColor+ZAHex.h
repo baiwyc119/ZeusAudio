@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIColor+ZAHex.h
 //  ZeusAudio
 //
 //  Created by lingchen on 12/21/16.
@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ZAViewController.h"
 
-@interface ViewController : ZAViewController
+@interface UIColor (ZAHex)
 
++ (UIColor *)za_colorWithHex:(NSUInteger)value;
 
 @end
-

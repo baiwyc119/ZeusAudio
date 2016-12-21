@@ -10,9 +10,13 @@
 		7A589A871E0A813D00A53FCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A589A861E0A813D00A53FCD /* main.m */; };
 		7A589A8A1E0A813D00A53FCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A589A891E0A813D00A53FCD /* AppDelegate.m */; };
 		7A589A8D1E0A813D00A53FCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A589A8C1E0A813D00A53FCD /* ViewController.m */; };
-		7A589A901E0A813D00A53FCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A589A8E1E0A813D00A53FCD /* Main.storyboard */; };
 		7A589A921E0A813D00A53FCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A589A911E0A813D00A53FCD /* Assets.xcassets */; };
 		7A589A951E0A813D00A53FCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A589A931E0A813D00A53FCD /* LaunchScreen.storyboard */; };
+		7A589A9E1E0A83D200A53FCD /* ZAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A589A9D1E0A83D200A53FCD /* ZAViewController.m */; };
+		7A589AA11E0A86DD00A53FCD /* ZANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A589AA01E0A86DD00A53FCD /* ZANavigationController.m */; };
+		7A589AA41E0AB96F00A53FCD /* UIColor+ZAHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A589AA31E0AB96F00A53FCD /* UIColor+ZAHex.m */; };
+		7A589AA71E0AC14500A53FCD /* nav_right_bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A589AA61E0AC14500A53FCD /* nav_right_bar@2x.png */; };
+		7A589AAA1E0AC4DE00A53FCD /* ZAWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A589AA91E0AC4DE00A53FCD /* ZAWaveformView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +26,18 @@
 		7A589A891E0A813D00A53FCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7A589A8B1E0A813D00A53FCD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7A589A8C1E0A813D00A53FCD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7A589A8F1E0A813D00A53FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A589A911E0A813D00A53FCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A589A941E0A813D00A53FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A589A961E0A813D00A53FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A589A9C1E0A83D200A53FCD /* ZAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAViewController.h; sourceTree = "<group>"; };
+		7A589A9D1E0A83D200A53FCD /* ZAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAViewController.m; sourceTree = "<group>"; };
+		7A589A9F1E0A86DD00A53FCD /* ZANavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZANavigationController.h; sourceTree = "<group>"; };
+		7A589AA01E0A86DD00A53FCD /* ZANavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZANavigationController.m; sourceTree = "<group>"; };
+		7A589AA21E0AB96F00A53FCD /* UIColor+ZAHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZAHex.h"; sourceTree = "<group>"; };
+		7A589AA31E0AB96F00A53FCD /* UIColor+ZAHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZAHex.m"; sourceTree = "<group>"; };
+		7A589AA61E0AC14500A53FCD /* nav_right_bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_right_bar@2x.png"; sourceTree = "<group>"; };
+		7A589AA81E0AC4DE00A53FCD /* ZAWaveformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAWaveformView.h; sourceTree = "<group>"; };
+		7A589AA91E0AC4DE00A53FCD /* ZAWaveformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAWaveformView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +70,23 @@
 		7A589A841E0A813D00A53FCD /* ZeusAudio */ = {
 			isa = PBXGroup;
 			children = (
+				7A589AA51E0ABC9D00A53FCD /* Resources */,
 				7A589A881E0A813D00A53FCD /* AppDelegate.h */,
 				7A589A891E0A813D00A53FCD /* AppDelegate.m */,
 				7A589A8B1E0A813D00A53FCD /* ViewController.h */,
 				7A589A8C1E0A813D00A53FCD /* ViewController.m */,
-				7A589A8E1E0A813D00A53FCD /* Main.storyboard */,
 				7A589A911E0A813D00A53FCD /* Assets.xcassets */,
 				7A589A931E0A813D00A53FCD /* LaunchScreen.storyboard */,
 				7A589A961E0A813D00A53FCD /* Info.plist */,
 				7A589A851E0A813D00A53FCD /* Supporting Files */,
+				7A589A9C1E0A83D200A53FCD /* ZAViewController.h */,
+				7A589A9D1E0A83D200A53FCD /* ZAViewController.m */,
+				7A589A9F1E0A86DD00A53FCD /* ZANavigationController.h */,
+				7A589AA01E0A86DD00A53FCD /* ZANavigationController.m */,
+				7A589AA21E0AB96F00A53FCD /* UIColor+ZAHex.h */,
+				7A589AA31E0AB96F00A53FCD /* UIColor+ZAHex.m */,
+				7A589AA81E0AC4DE00A53FCD /* ZAWaveformView.h */,
+				7A589AA91E0AC4DE00A53FCD /* ZAWaveformView.m */,
 			);
 			path = ZeusAudio;
 			sourceTree = "<group>";
@@ -77,6 +97,14 @@
 				7A589A861E0A813D00A53FCD /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A589AA51E0ABC9D00A53FCD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7A589AA61E0AC14500A53FCD /* nav_right_bar@2x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +167,7 @@
 			files = (
 				7A589A951E0A813D00A53FCD /* LaunchScreen.storyboard in Resources */,
 				7A589A921E0A813D00A53FCD /* Assets.xcassets in Resources */,
-				7A589A901E0A813D00A53FCD /* Main.storyboard in Resources */,
+				7A589AA71E0AC14500A53FCD /* nav_right_bar@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,22 +179,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A589A8D1E0A813D00A53FCD /* ViewController.m in Sources */,
+				7A589AAA1E0AC4DE00A53FCD /* ZAWaveformView.m in Sources */,
 				7A589A8A1E0A813D00A53FCD /* AppDelegate.m in Sources */,
+				7A589AA41E0AB96F00A53FCD /* UIColor+ZAHex.m in Sources */,
 				7A589A871E0A813D00A53FCD /* main.m in Sources */,
+				7A589AA11E0A86DD00A53FCD /* ZANavigationController.m in Sources */,
+				7A589A9E1E0A83D200A53FCD /* ZAViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7A589A8E1E0A813D00A53FCD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7A589A8F1E0A813D00A53FCD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7A589A931E0A813D00A53FCD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -309,6 +333,7 @@
 				7A589A9B1E0A813D00A53FCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
