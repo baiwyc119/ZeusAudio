@@ -43,7 +43,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    [self.view setBackgroundColor:[UIColor redColor]];
+    [self.view setBackgroundColor:[UIColor za_colorWithHex:0xe5e5e5]];
     
     [self setTitle:@"Record"];
     
