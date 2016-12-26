@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48D2329F58B4791487A78CA8 /* libPods-ZeusAudio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D059309CA61422D1124332A /* libPods-ZeusAudio.a */; };
+		680B311601CD47F55A9076DB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C88BF2AE005E125723D78E0A /* libPods.a */; };
+		7A02FF421E0D2D5300A54A63 /* ZAAudioUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A02FF411E0D2D5300A54A63 /* ZAAudioUtils.m */; };
+		7A02FF451E10A64900A54A63 /* ZAAudioInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A02FF441E10A64900A54A63 /* ZAAudioInfo.m */; };
 		7A589A871E0A813D00A53FCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A589A861E0A813D00A53FCD /* main.m */; };
 		7A589A8A1E0A813D00A53FCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A589A891E0A813D00A53FCD /* AppDelegate.m */; };
 		7A589A8D1E0A813D00A53FCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A589A8C1E0A813D00A53FCD /* ViewController.m */; };
@@ -17,9 +21,17 @@
 		7A589AA41E0AB96F00A53FCD /* UIColor+ZAHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A589AA31E0AB96F00A53FCD /* UIColor+ZAHex.m */; };
 		7A589AA71E0AC14500A53FCD /* nav_right_bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A589AA61E0AC14500A53FCD /* nav_right_bar@2x.png */; };
 		7A589AAA1E0AC4DE00A53FCD /* ZAWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A589AA91E0AC4DE00A53FCD /* ZAWaveformView.m */; };
+		7A589AAD1E0B655800A53FCD /* ZAControlPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A589AAC1E0B655800A53FCD /* ZAControlPanel.m */; };
+		7A589AB01E0B70DD00A53FCD /* ZANamePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A589AAF1E0B70DD00A53FCD /* ZANamePanel.m */; };
+		7A589ABB1E0D19FC00A53FCD /* ZARecordEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A589ABA1E0D19FC00A53FCD /* ZARecordEngine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42C8F6CFCA2EEE6D121FBAAF /* Pods-ZeusAudio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeusAudio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZeusAudio/Pods-ZeusAudio.debug.xcconfig"; sourceTree = "<group>"; };
+		7A02FF401E0D2D5300A54A63 /* ZAAudioUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAAudioUtils.h; sourceTree = "<group>"; };
+		7A02FF411E0D2D5300A54A63 /* ZAAudioUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAAudioUtils.m; sourceTree = "<group>"; };
+		7A02FF431E10A64900A54A63 /* ZAAudioInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAAudioInfo.h; sourceTree = "<group>"; };
+		7A02FF441E10A64900A54A63 /* ZAAudioInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAAudioInfo.m; sourceTree = "<group>"; };
 		7A589A821E0A813D00A53FCD /* ZeusAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeusAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A589A861E0A813D00A53FCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7A589A881E0A813D00A53FCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,6 +50,18 @@
 		7A589AA61E0AC14500A53FCD /* nav_right_bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_right_bar@2x.png"; sourceTree = "<group>"; };
 		7A589AA81E0AC4DE00A53FCD /* ZAWaveformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAWaveformView.h; sourceTree = "<group>"; };
 		7A589AA91E0AC4DE00A53FCD /* ZAWaveformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAWaveformView.m; sourceTree = "<group>"; };
+		7A589AAB1E0B655800A53FCD /* ZAControlPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAControlPanel.h; sourceTree = "<group>"; };
+		7A589AAC1E0B655800A53FCD /* ZAControlPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAControlPanel.m; sourceTree = "<group>"; };
+		7A589AAE1E0B70DD00A53FCD /* ZANamePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZANamePanel.h; sourceTree = "<group>"; };
+		7A589AAF1E0B70DD00A53FCD /* ZANamePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZANamePanel.m; sourceTree = "<group>"; };
+		7A589AB11E0BD74600A53FCD /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7A589AB91E0D19FC00A53FCD /* ZARecordEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZARecordEngine.h; sourceTree = "<group>"; };
+		7A589ABA1E0D19FC00A53FCD /* ZARecordEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZARecordEngine.m; sourceTree = "<group>"; };
+		8D059309CA61422D1124332A /* libPods-ZeusAudio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZeusAudio.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9747831339EB0C52A1FA9E18 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9BF0D8EFE810FE6C3A1F91D9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C88BF2AE005E125723D78E0A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F553D34922CB64442E3E9BA2 /* Pods-ZeusAudio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeusAudio.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZeusAudio/Pods-ZeusAudio.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680B311601CD47F55A9076DB /* libPods.a in Frameworks */,
+				48D2329F58B4791487A78CA8 /* libPods-ZeusAudio.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +82,8 @@
 			children = (
 				7A589A841E0A813D00A53FCD /* ZeusAudio */,
 				7A589A831E0A813D00A53FCD /* Products */,
+				A9645E70D0E126DF3B1EBFAB /* Pods */,
+				C28E742F331350AE80AC3259 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,6 +115,17 @@
 				7A589AA31E0AB96F00A53FCD /* UIColor+ZAHex.m */,
 				7A589AA81E0AC4DE00A53FCD /* ZAWaveformView.h */,
 				7A589AA91E0AC4DE00A53FCD /* ZAWaveformView.m */,
+				7A589AAB1E0B655800A53FCD /* ZAControlPanel.h */,
+				7A589AAC1E0B655800A53FCD /* ZAControlPanel.m */,
+				7A589AAE1E0B70DD00A53FCD /* ZANamePanel.h */,
+				7A589AAF1E0B70DD00A53FCD /* ZANamePanel.m */,
+				7A589AB11E0BD74600A53FCD /* PrefixHeader.pch */,
+				7A589AB91E0D19FC00A53FCD /* ZARecordEngine.h */,
+				7A589ABA1E0D19FC00A53FCD /* ZARecordEngine.m */,
+				7A02FF401E0D2D5300A54A63 /* ZAAudioUtils.h */,
+				7A02FF411E0D2D5300A54A63 /* ZAAudioUtils.m */,
+				7A02FF431E10A64900A54A63 /* ZAAudioInfo.h */,
+				7A02FF441E10A64900A54A63 /* ZAAudioInfo.m */,
 			);
 			path = ZeusAudio;
 			sourceTree = "<group>";
@@ -107,6 +146,26 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		A9645E70D0E126DF3B1EBFAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9747831339EB0C52A1FA9E18 /* Pods.debug.xcconfig */,
+				9BF0D8EFE810FE6C3A1F91D9 /* Pods.release.xcconfig */,
+				42C8F6CFCA2EEE6D121FBAAF /* Pods-ZeusAudio.debug.xcconfig */,
+				F553D34922CB64442E3E9BA2 /* Pods-ZeusAudio.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C28E742F331350AE80AC3259 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C88BF2AE005E125723D78E0A /* libPods.a */,
+				8D059309CA61422D1124332A /* libPods-ZeusAudio.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -114,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A589A991E0A813D00A53FCD /* Build configuration list for PBXNativeTarget "ZeusAudio" */;
 			buildPhases = (
+				99C5CE0672F5C9B6F7A9BD7C /* [CP] Check Pods Manifest.lock */,
 				7A589A7E1E0A813D00A53FCD /* Sources */,
 				7A589A7F1E0A813D00A53FCD /* Frameworks */,
 				7A589A801E0A813D00A53FCD /* Resources */,
+				5306A938D4393F26199B83C1 /* [CP] Embed Pods Frameworks */,
+				206961175D233EC6E34218DB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,18 +235,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		206961175D233EC6E34218DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZeusAudio/Pods-ZeusAudio-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5306A938D4393F26199B83C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZeusAudio/Pods-ZeusAudio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99C5CE0672F5C9B6F7A9BD7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7A589A7E1E0A813D00A53FCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7A589A8D1E0A813D00A53FCD /* ViewController.m in Sources */,
+				7A02FF451E10A64900A54A63 /* ZAAudioInfo.m in Sources */,
+				7A589AB01E0B70DD00A53FCD /* ZANamePanel.m in Sources */,
 				7A589AAA1E0AC4DE00A53FCD /* ZAWaveformView.m in Sources */,
 				7A589A8A1E0A813D00A53FCD /* AppDelegate.m in Sources */,
 				7A589AA41E0AB96F00A53FCD /* UIColor+ZAHex.m in Sources */,
 				7A589A871E0A813D00A53FCD /* main.m in Sources */,
+				7A02FF421E0D2D5300A54A63 /* ZAAudioUtils.m in Sources */,
 				7A589AA11E0A86DD00A53FCD /* ZANavigationController.m in Sources */,
 				7A589A9E1E0A83D200A53FCD /* ZAViewController.m in Sources */,
+				7A589AAD1E0B655800A53FCD /* ZAControlPanel.m in Sources */,
+				7A589ABB1E0D19FC00A53FCD /* ZARecordEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,8 +409,54 @@
 		};
 		7A589A9A1E0A813D00A53FCD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42C8F6CFCA2EEE6D121FBAAF /* Pods-ZeusAudio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(PODS_ROOT)/Headers/Public/TBLiveStream/videocore",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/ARUP\"",
+					"\"${PODS_ROOT}/Headers/Public/AliVfsBundle\"",
+					"\"${PODS_ROOT}/Headers/Public/AliVfsDB\"",
+					"\"${PODS_ROOT}/Headers/Public/AliVfsMonitor\"",
+					"\"${PODS_ROOT}/Headers/Public/AliVfsSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"\"${PODS_ROOT}/Headers/Public/FaceLivenessSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/FileMD5Hash\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/MessageKit\"",
+					"\"${PODS_ROOT}/Headers/Public/MirrorSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/MtopSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/NetworkSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/PowerMsg\"",
+					"\"${PODS_ROOT}/Headers/Public/PushCenterSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/Reachability\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SGMain\"",
+					"\"${PODS_ROOT}/Headers/Public/SGNoCaptcha\"",
+					"\"${PODS_ROOT}/Headers/Public/SGSecurityBody\"",
+					"\"${PODS_ROOT}/Headers/Public/SGUATrace\"",
+					"\"${PODS_ROOT}/Headers/Public/SecurityGuardSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/TBAccsSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/TBDataTransfer\"",
+					"\"${PODS_ROOT}/Headers/Public/TBLiveStream\"",
+					"\"${PODS_ROOT}/Headers/Public/TBMacroConfig\"",
+					"\"${PODS_ROOT}/Headers/Public/TBProtobuf\"",
+					"\"${PODS_ROOT}/Headers/Public/TBVideoToolKit\"",
+					"\"${PODS_ROOT}/Headers/Public/TMLivePlayerSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/TRDEngine\"",
+					"\"${PODS_ROOT}/Headers/Public/UTDID\"",
+					"\"${PODS_ROOT}/Headers/Public/UriParser-cpp\"",
+					"\"${PODS_ROOT}/Headers/Public/UserTrack\"",
+					"\"${PODS_ROOT}/Headers/Public/WindVane\"",
+					"\"${PODS_ROOT}/Headers/Public/ZipArchive\"",
+					"\"${PODS_ROOT}/Headers/Public/glm\"",
+					"\"${PODS_ROOT}/Headers/Public/mtopext\"",
+					"\"${PODS_ROOT}/Headers/Public/orange\"",
+					"\"${PODS_ROOT}/Headers/Public/tnet\"",
+				);
 				INFOPLIST_FILE = ZeusAudio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lingchen.ZeusAudio;
@@ -305,8 +466,54 @@
 		};
 		7A589A9B1E0A813D00A53FCD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F553D34922CB64442E3E9BA2 /* Pods-ZeusAudio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(PODS_ROOT)/Headers/Public/TBLiveStream/videocore",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/ARUP\"",
+					"\"${PODS_ROOT}/Headers/Public/AliVfsBundle\"",
+					"\"${PODS_ROOT}/Headers/Public/AliVfsDB\"",
+					"\"${PODS_ROOT}/Headers/Public/AliVfsMonitor\"",
+					"\"${PODS_ROOT}/Headers/Public/AliVfsSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"\"${PODS_ROOT}/Headers/Public/FaceLivenessSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/FileMD5Hash\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/MessageKit\"",
+					"\"${PODS_ROOT}/Headers/Public/MirrorSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/MtopSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/NetworkSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/PowerMsg\"",
+					"\"${PODS_ROOT}/Headers/Public/PushCenterSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/Reachability\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SGMain\"",
+					"\"${PODS_ROOT}/Headers/Public/SGNoCaptcha\"",
+					"\"${PODS_ROOT}/Headers/Public/SGSecurityBody\"",
+					"\"${PODS_ROOT}/Headers/Public/SGUATrace\"",
+					"\"${PODS_ROOT}/Headers/Public/SecurityGuardSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/TBAccsSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/TBDataTransfer\"",
+					"\"${PODS_ROOT}/Headers/Public/TBLiveStream\"",
+					"\"${PODS_ROOT}/Headers/Public/TBMacroConfig\"",
+					"\"${PODS_ROOT}/Headers/Public/TBProtobuf\"",
+					"\"${PODS_ROOT}/Headers/Public/TBVideoToolKit\"",
+					"\"${PODS_ROOT}/Headers/Public/TMLivePlayerSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/TRDEngine\"",
+					"\"${PODS_ROOT}/Headers/Public/UTDID\"",
+					"\"${PODS_ROOT}/Headers/Public/UriParser-cpp\"",
+					"\"${PODS_ROOT}/Headers/Public/UserTrack\"",
+					"\"${PODS_ROOT}/Headers/Public/WindVane\"",
+					"\"${PODS_ROOT}/Headers/Public/ZipArchive\"",
+					"\"${PODS_ROOT}/Headers/Public/glm\"",
+					"\"${PODS_ROOT}/Headers/Public/mtopext\"",
+					"\"${PODS_ROOT}/Headers/Public/orange\"",
+					"\"${PODS_ROOT}/Headers/Public/tnet\"",
+				);
 				INFOPLIST_FILE = ZeusAudio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lingchen.ZeusAudio;
