@@ -88,6 +88,8 @@
 {
     NSLog(@"Record");
     
+    [self.waveformView startFetchingAudio];
+    
 }
 
 #pragma mark - View Did Load

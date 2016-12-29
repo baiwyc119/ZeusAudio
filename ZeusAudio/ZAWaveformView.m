@@ -21,11 +21,15 @@
 - (id)initWithFrame:(CGRect)frame
 {
     if (self = [super initWithFrame:frame]) {
-        
+        self.recordEngine = [[ZARecordEngine alloc] init];
     }
     return self;
 }
 
 
+-(void)startFetchingAudio
+{
+    [self.recordEngine startFetchingAudio];
+}
 
 @end

@@ -11,4 +11,7 @@
 @interface ZARecordEngine : NSObject
 
 
+-(void)startFetchingAudio;
+
+
 @end

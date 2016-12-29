@@ -10,4 +10,6 @@
 
 @interface ZAWaveformView : UIView
 
+-(void)startFetchingAudio;
+
 @end
